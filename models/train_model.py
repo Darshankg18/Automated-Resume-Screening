@@ -39,5 +39,5 @@ def train_random_forest(X_train, y_train):
 #     print("Recall:", round(recall, 3))
 #     print("F1-Score:", round(f1, 3))
 
-    return accuracy, precision, recall, f1
+#    return accuracy, precision, recall, f1
 
