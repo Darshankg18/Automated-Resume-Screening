@@ -45,5 +45,5 @@ def evaluate_model(model, X_test, y_test):
     print("Recall:", round(recall, 3))
     print("F1-Score:", round(f1, 3))
 
-    return accuracy, precision, recall, f1
+#    return accuracy, precision, recall, f1
 
