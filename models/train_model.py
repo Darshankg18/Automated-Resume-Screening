@@ -3,6 +3,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score
 from sklearn.ensemble import RandomForestClassifier
+from sklearn.svm import SVC
 
 def load_data(csv_path):
     df = pd.read_csv(csv_path)
@@ -26,18 +27,23 @@ def train_random_forest(X_train, y_train):
     model.fit(X_train, y_train)
     return model
 
-# def evaluate_model(model, X_test, y_test):
-#     predictions = model.predict(X_test)
+def train_svm(X_train,y_train):
+    model=SVC(kernel='rbf',probablity=True,random_state=42)
+    model.fit(X_train,y_train)
+    return model
 
-#     accuracy = accuracy_score(y_test, predictions)
-#     precision = precision_score(y_test, predictions)
-#     recall = recall_score(y_test, predictions)
-#     f1 = f1_score(y_test, predictions)
+def evaluate_model(model, X_test, y_test):
+    predictions = model.predict(X_test)
 
-#     print("Accuracy:", round(accuracy, 3))
-#     print("Precision:", round(precision, 3))
-#     print("Recall:", round(recall, 3))
-#     print("F1-Score:", round(f1, 3))
+    accuracy = accuracy_score(y_test, predictions)
+    precision = precision_score(y_test, predictions)
+    recall = recall_score(y_test, predictions)
+    f1 = f1_score(y_test, predictions)
+
+    print("Accuracy:", round(accuracy, 3))
+    print("Precision:", round(precision, 3))
+    print("Recall:", round(recall, 3))
+    print("F1-Score:", round(f1, 3))
 
     return accuracy, precision, recall, f1
 
