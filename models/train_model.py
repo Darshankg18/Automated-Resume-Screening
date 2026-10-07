@@ -4,6 +4,8 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.svm import SVC
+from xgboost import XGBClassifier
+from lightgbm import LGBMClassifier
 
 def load_data(csv_path):
     df = pd.read_csv(csv_path)
@@ -28,8 +30,18 @@ def train_random_forest(X_train, y_train):
     return model
 
 def train_svm(X_train,y_train):
-    model=SVC(kernel='rbf',probablity=True,random_state=42)
+    model=SVC(kernel='rbf',probability=True,random_state=42)
     model.fit(X_train,y_train)
+    return model
+
+def train_xgboost(X_train,Y_train):
+    model=XGBClassifier(n_estimators=100,random_state=42,eval_metric='logloss')
+    model.fit(X_train,Y_train)
+    return model
+
+def train_lightgbm(X_train,Y_train):
+    model=LGBMClassifier(n_estimators=100,random_state=42,verbose=-1)
+    model.fit(X_train,Y_train)
     return model
 
 def evaluate_model(model, X_test, y_test):
@@ -47,3 +59,30 @@ def evaluate_model(model, X_test, y_test):
 
     return accuracy, precision, recall, f1
 
+if __name__ == "__main__":
+    X, y = load_data("data/candidate_features/sample_candidate_features.csv")
+    X_train, X_test, y_train, y_test = split_data(X, y)
+
+    print("=== Logistic Regression ===")
+    log_model = train_logistic_regression(X_train, y_train)
+    evaluate_model(log_model, X_test, y_test)
+
+    print()
+    print("=== Random Forest ===")
+    rf_model = train_random_forest(X_train, y_train)
+    evaluate_model(rf_model, X_test, y_test)
+
+    print()
+    print("=== SVM ===")
+    svm_model = train_svm(X_train, y_train)
+    evaluate_model(svm_model, X_test, y_test)
+
+    print()
+    print("=== XGBoost ===")
+    xgb_model = train_xgboost(X_train, y_train)
+    evaluate_model(xgb_model, X_test, y_test)
+
+    print()
+    print("=== LightGBM ===")
+    lgbm_model = train_lightgbm(X_train, y_train)
+    evaluate_model(lgbm_model, X_test, y_test)
