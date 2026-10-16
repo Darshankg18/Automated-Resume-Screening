@@ -19,8 +19,8 @@ def split_data(X, y):
     )
     return X_train, X_test, y_train, y_test
 
-def train_logistic_regression(X_train, y_train):
-    model = LogisticRegression()
+def train_logistic_regression(X_train, y_train,C=1.0):
+    model = LogisticRegression(C=C)
     model.fit(X_train, y_train)
     return model
 
