@@ -6,6 +6,7 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.svm import SVC
 from xgboost import XGBClassifier
 from lightgbm import LGBMClassifier
+from sklearn.metrics import roc_auc_score
 
 def load_data(csv_path):
     df = pd.read_csv(csv_path)
@@ -57,7 +58,11 @@ def evaluate_model(model, X_test, y_test):
     print("Recall:", round(recall, 3))
     print("F1-Score:", round(f1, 3))
 
-    return accuracy, precision, recall, f1
+    probabilities = model.predict_proba(X_test)[:, 1]
+    roc_auc = roc_auc_score(y_test, probabilities)
+    print("ROC-AUC:", round(roc_auc, 3))
+
+    return accuracy, precision, recall, f1, roc_auc
 
 if __name__ == "__main__":
     X, y = load_data("data/candidate_features/sample_candidate_features.csv")
