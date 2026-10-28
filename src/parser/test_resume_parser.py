@@ -1,11 +1,11 @@
 from pathlib import Path
 
-from resume_parser import parse_resume
+from src.parser.resume_parser import parse_resume
 
 
 def test_pdf_resume():
 
-    pdf_path = r"..\..\data\resumes\sample_resume.pdf"
+    pdf_path = "data/resumes/sample_resume.pdf"
 
     resume_data = parse_resume(pdf_path)
 
@@ -26,7 +26,7 @@ def test_pdf_resume():
 
 def test_docx_resume():
 
-    docx_path = r"..\..\data\resumes\sample_resume.docx"
+    docx_path = "data/resumes/sample_resume.docx"
 
     resume_data = parse_resume(docx_path)
 
@@ -48,40 +48,35 @@ def test_docx_resume():
 def test_invalid_file():
 
     try:
-
-        parse_resume(
-            r"..\..\data\resumes\does_not_exist.pdf"
-        )
+        parse_resume("data/resumes/does_not_exist.pdf")
 
     except FileNotFoundError:
-
         print("Invalid file test passed!")
+
+    else:
+        raise AssertionError("Expected FileNotFoundError")
 
 
 def test_unsupported_file():
 
-    test_file = Path(
-        r"..\..\data\resumes\resume.txt"
-    )
+    test_file = Path("data/resumes/resume.txt")
 
     test_file.write_text("This is a test file.")
 
     try:
-
         parse_resume(str(test_file))
 
     except ValueError as error:
 
-        assert (
-            "Only PDF and DOCX files are supported."
-            in str(error)
-        )
+        assert "Only PDF and DOCX files are supported." in str(error)
 
         print("Unsupported file test passed!")
 
-    finally:
+    else:
+        raise AssertionError("Expected ValueError")
 
-        test_file.unlink()
+    finally:
+        test_file.unlink(missing_ok=True)
 
 
 if __name__ == "__main__":

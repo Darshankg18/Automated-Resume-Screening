@@ -31,6 +31,7 @@ SECTION_ALIASES = {
         "TECHNOLOGIES",
         "TECHNICAL EXPERTISE",
         "TECHNOLOGY STACK",
+        "TECHNICAL SKILLS AND TOOLS",
     },
 
     "experience": {

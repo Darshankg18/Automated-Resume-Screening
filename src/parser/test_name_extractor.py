@@ -1,4 +1,4 @@
-from name_extractor import extract_name
+from src.parser.name_extractor import extract_name
 
 
 def test_name_extraction():
