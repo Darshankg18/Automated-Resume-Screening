@@ -1,4 +1,4 @@
-from section_splitter import detect_section_heading, split_sections
+from src.parser. section_splitter import detect_section_heading, split_sections
 
 
 # Test different real-world resume headings

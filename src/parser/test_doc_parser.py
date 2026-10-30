@@ -1,5 +1,5 @@
 # Test the DOCX parser
-from doc_parser import extract_text_from_docx
+from src.parser. doc_parser import extract_text_from_docx
 
 # Path to the sample resume
 docx_path = r"data\resumes\sample_resume.docx"

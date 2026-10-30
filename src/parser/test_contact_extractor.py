@@ -1,4 +1,4 @@
-from contact_extractor import (
+from src.parser.contact_extractor import (
     extract_email,
     extract_phone,
     extract_contact_information
