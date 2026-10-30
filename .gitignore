@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -44,3 +45,44 @@ htmlcov/
 # OS artifacts
 .DS_Store
 Thumbs.db
+=======
+# Virtual environment
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Environment variables / secrets
+.env
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Model files (often large — track separately or via Git LFS)
+*.pkl
+*.joblib
+*.h5
+*.pt
+models/*.pkl
+models/*.joblib
+
+# Data files (resumes may be sensitive, and large datasets shouldn't bloat the repo)
+data/raw_resumes/*
+data/job_descriptions/*
+!data/raw_resumes/.gitkeep
+!data/job_descriptions/.gitkeep
+
+# OS-specific junk
+.DS_Store
+Thumbs.db
+
+# IDE settings
+.vscode/
+.idea/
+
+# Logs
+*.log
+>>>>>>> a2775bbfbb3973b998110cb7229ec8adbcd3bb87
