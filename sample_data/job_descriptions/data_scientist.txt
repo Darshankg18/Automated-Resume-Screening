@@ -1,0 +1,23 @@
+Lead Data Scientist & Machine Learning Engineer
+
+Company: Nexus Cognitive Systems
+Location: San Francisco, CA / Remote
+Experience Required: 3+ years in applied machine learning and data science
+Education: Master's or PhD in Computer Science, Statistics, Mathematics, or related quantitative field
+
+About the Role:
+Nexus Cognitive Systems is looking for an experienced Data Scientist and Machine Learning Engineer to lead the development of our predictive modeling and explainable AI pipelines.
+
+Key Responsibilities:
+- Design and deploy machine learning and deep learning models for classification, ranking, and NLP tasks.
+- Apply interpretability and Explainable AI frameworks, including SHAP and feature attribution methods, to explain complex models.
+- Process large-scale tabular and unstructured text datasets using Pandas, NumPy, and Scikit-learn.
+- Train transformer models and neural networks using PyTorch or TensorFlow.
+- Partner with product and engineering teams to integrate ML models into production microservices and REST APIs.
+
+Required Skills & Qualifications:
+- 3+ years of professional experience in machine learning, statistics, and data science.
+- Advanced proficiency in Python, Pandas, NumPy, Scikit-learn, and SQL.
+- Strong hands-on experience with PyTorch or TensorFlow for deep learning and NLP.
+- Practical experience with model interpretability and Explainable AI (SHAP, feature importance).
+- Strong foundation in statistical modeling, hypothesis testing, and evaluation metrics (ROC-AUC, Precision, Recall, F1).

@@ -1,0 +1,20 @@
+Diana Kim
+Email: diana.kim@example.com | Phone: +1-555-0163
+Location: Chicago, IL
+
+PROFILE
+Enthusiastic Junior Developer with 1 year of foundational experience in Python, web development, and database querying. Eager to expand backend and cloud skills.
+
+SKILLS
+- Languages: Python, JavaScript, HTML, CSS
+- Databases: Basic SQL, SQLite
+- Tools: Git, GitHub, VS Code
+
+EXPERIENCE
+Junior Web Developer | StartUp Nexus | 2023 - Present
+- Created responsive frontend pages with HTML, CSS, and JavaScript.
+- Wrote lightweight Python scripts to automate internal data entry tasks.
+- Used Git for version control and issue tracking.
+
+EDUCATION
+Bachelor of Science in Computer Science | University of Illinois | 2019 - 2023

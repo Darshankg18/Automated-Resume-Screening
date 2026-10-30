@@ -1,0 +1,135 @@
+{
+  "dataset_name": "Synthetic Recruitment Benchmark 2026 (Fictional Evaluation Dataset)",
+  "description": "Standardized evaluation cohort with synthetic ground-truth hiring outcomes and lawful demographic audit groups for evaluation and fairness testing.",
+  "total_candidates": 16,
+  "candidates": [
+    {
+      "candidate_id": "eval_001",
+      "candidate_name": "Candidate A1",
+      "predicted_score": 92.4,
+      "actual_relevant": 1,
+      "actual_relevance_grade": 3,
+      "demographic_group": "Group Alpha"
+    },
+    {
+      "candidate_id": "eval_002",
+      "candidate_name": "Candidate A2",
+      "predicted_score": 88.5,
+      "actual_relevant": 1,
+      "actual_relevance_grade": 3,
+      "demographic_group": "Group Beta"
+    },
+    {
+      "candidate_id": "eval_003",
+      "candidate_name": "Candidate A3",
+      "predicted_score": 84.0,
+      "actual_relevant": 1,
+      "actual_relevance_grade": 2,
+      "demographic_group": "Group Alpha"
+    },
+    {
+      "candidate_id": "eval_004",
+      "candidate_name": "Candidate A4",
+      "predicted_score": 81.2,
+      "actual_relevant": 1,
+      "actual_relevance_grade": 2,
+      "demographic_group": "Group Beta"
+    },
+    {
+      "candidate_id": "eval_005",
+      "candidate_name": "Candidate A5",
+      "predicted_score": 79.5,
+      "actual_relevant": 1,
+      "actual_relevance_grade": 2,
+      "demographic_group": "Group Alpha"
+    },
+    {
+      "candidate_id": "eval_006",
+      "candidate_name": "Candidate A6",
+      "predicted_score": 76.0,
+      "actual_relevant": 1,
+      "actual_relevance_grade": 2,
+      "demographic_group": "Group Beta"
+    },
+    {
+      "candidate_id": "eval_007",
+      "candidate_name": "Candidate A7",
+      "predicted_score": 73.1,
+      "actual_relevant": 0,
+      "actual_relevance_grade": 1,
+      "demographic_group": "Group Alpha"
+    },
+    {
+      "candidate_id": "eval_008",
+      "candidate_name": "Candidate A8",
+      "predicted_score": 71.4,
+      "actual_relevant": 1,
+      "actual_relevance_grade": 2,
+      "demographic_group": "Group Beta"
+    },
+    {
+      "candidate_id": "eval_009",
+      "candidate_name": "Candidate A9",
+      "predicted_score": 68.0,
+      "actual_relevant": 0,
+      "actual_relevance_grade": 1,
+      "demographic_group": "Group Alpha"
+    },
+    {
+      "candidate_id": "eval_010",
+      "candidate_name": "Candidate A10",
+      "predicted_score": 64.5,
+      "actual_relevant": 0,
+      "actual_relevance_grade": 1,
+      "demographic_group": "Group Beta"
+    },
+    {
+      "candidate_id": "eval_011",
+      "candidate_name": "Candidate A11",
+      "predicted_score": 58.2,
+      "actual_relevant": 0,
+      "actual_relevance_grade": 0,
+      "demographic_group": "Group Alpha"
+    },
+    {
+      "candidate_id": "eval_012",
+      "candidate_name": "Candidate A12",
+      "predicted_score": 52.0,
+      "actual_relevant": 0,
+      "actual_relevance_grade": 0,
+      "demographic_group": "Group Beta"
+    },
+    {
+      "candidate_id": "eval_013",
+      "candidate_name": "Candidate A13",
+      "predicted_score": 48.7,
+      "actual_relevant": 0,
+      "actual_relevance_grade": 0,
+      "demographic_group": "Group Alpha"
+    },
+    {
+      "candidate_id": "eval_014",
+      "candidate_name": "Candidate A14",
+      "predicted_score": 41.3,
+      "actual_relevant": 0,
+      "actual_relevance_grade": 0,
+      "demographic_group": "Group Beta"
+    },
+    {
+      "candidate_id": "eval_015",
+      "candidate_name": "Candidate A15",
+      "predicted_score": 35.0,
+      "actual_relevant": 0,
+      "actual_relevance_grade": 0,
+      "demographic_group": "Group Alpha"
+    },
+    {
+      "candidate_id": "eval_016",
+      "candidate_name": "Candidate A16",
+      "predicted_score": 28.5,
+      "actual_relevant": 0,
+      "actual_relevance_grade": 0,
+      "demographic_group": "Group Beta"
+    }
+  ]
+}

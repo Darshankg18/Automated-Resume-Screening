@@ -1,0 +1,29 @@
+Charlie Patel
+Email: charlie.patel@example.com | Phone: +1-555-0188
+Location: San Jose, CA
+
+PROFESSIONAL SUMMARY
+Machine Learning Engineer and Data Scientist with 4+ years of experience developing predictive analytics, deep learning models, and explainable AI systems in Python. Skilled in PyTorch, Scikit-learn, Pandas, NumPy, NLP, and model interpretability with SHAP.
+
+SKILLS
+- Machine Learning & AI: Deep Learning, NLP, Computer Vision, SHAP, Scikit-learn, PyTorch, TensorFlow
+- Data Engineering: Pandas, NumPy, SQL, Spark
+- Programming: Python, R, SQL
+- DevOps: Git, Docker, AWS
+
+EXPERIENCE
+
+Machine Learning Engineer | Cognitive AI Labs | 2021 - Present
+- Developed predictive ranking and classification pipelines in Python utilizing PyTorch and Scikit-learn.
+- Implemented explainability algorithms with SHAP TreeExplainer and KernelExplainer to interpret complex model decisions for regulatory compliance.
+- Processed multi-gigabyte tabular datasets using Pandas and NumPy for feature engineering.
+- Deployed real-time inference microservices using Docker on AWS cloud instances.
+
+Data Scientist | Insight Analytics Corp | 2019 - 2021
+- Built supervised regression and classification models with Scikit-learn achieving an F1-score of 0.88.
+- Conducted NLP text classification on customer feedback data.
+- Optimized complex SQL queries to extract data from analytical data warehouses.
+
+EDUCATION
+Master of Science in Data Science | San Jose State University | 2017 - 2019
+Bachelor of Science in Statistics | UC Davis | 2013 - 2017

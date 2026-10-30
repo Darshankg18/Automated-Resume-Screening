@@ -1,0 +1,30 @@
+Alice Smith
+Email: alice.smith@example.com | Phone: +1-555-0192 | GitHub: github.com/alicesmith
+Location: Seattle, WA
+
+PROFESSIONAL SUMMARY
+Senior Software Engineer with 5+ years of experience designing scalable cloud backend systems, REST APIs, and microservices in Python. Experienced with FastAPI, Docker, SQL, PostgreSQL, Redis, and AWS deployments. Proven track record of improving system uptime and reducing API latency.
+
+TECHNICAL SKILLS
+- Programming: Python, SQL, Bash
+- Frameworks & Libraries: FastAPI, Flask, SQLAlchemy, Pydantic, Pytest
+- Databases: PostgreSQL, MySQL, Redis
+- Cloud & DevOps: AWS (EC2, S3, RDS, ECS), Docker, Git, CI/CD, GitHub Actions
+- Architecture: Microservices, REST API design, Event-driven architecture, Agile, Scrum
+
+PROFESSIONAL EXPERIENCE
+
+Senior Backend Engineer | CloudScale Solutions | 2021 - Present
+- Architected and deployed 12 high-performance microservices using Python and FastAPI serving over 4 million requests daily.
+- Optimized relational database queries in PostgreSQL, reducing average endpoint latency by 38%.
+- Containerized development and production pipelines with Docker and automated testing with GitHub Actions CI/CD.
+- Deployed distributed cloud infrastructure on AWS utilizing ECS and RDS.
+
+Backend Developer | Apex Data Systems | 2019 - 2021
+- Developed REST APIs using Python and Flask integrated with MySQL and Redis caching layers.
+- Collaborated in an Agile Scrum team with frontend and QA engineers to deliver bi-weekly production releases.
+- Implemented unit and integration test suites achieving 92% code coverage using Pytest.
+
+EDUCATION
+Master of Science (MS) in Computer Science | University of Washington | 2017 - 2019
+Bachelor of Science (BS) in Software Engineering | Washington State University | 2013 - 2017

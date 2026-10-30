@@ -1,0 +1,28 @@
+Bob Jones
+Email: bob.jones@example.com | Phone: +1-555-0144
+Location: Austin, TX
+
+SUMMARY
+Software Engineer with 3 years of hands-on experience building web applications and backend services with Python, Django, and SQL. Experienced in containerizing applications with Docker and Linux system administration.
+
+TECHNICAL SKILLS
+- Languages: Python, JavaScript, SQL
+- Frameworks: Django, Flask
+- Databases: PostgreSQL, SQLite
+- Tools: Docker, Git, Linux, Postman
+- Practices: Agile, Unit Testing
+
+WORK EXPERIENCE
+
+Software Engineer | BlueStone Interactive | 2021 - Present
+- Built and maintained customer-facing web services using Python, Django, and PostgreSQL.
+- Containerized local development environments using Docker to ensure cross-platform reproducibility.
+- Automated database migrations and schema updates across staging and production.
+- Participated in weekly sprint planning and code reviews using Git.
+
+Junior Developer | ByteCraft Studio | 2020 - 2021
+- Created internal REST API endpoints for analytics dashboards with Flask.
+- Wrote SQL scripts for data cleaning and report generation.
+
+EDUCATION
+Bachelor of Science in Information Technology | University of Texas | 2016 - 2020

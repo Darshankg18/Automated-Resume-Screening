@@ -1,0 +1,24 @@
+Senior Python Backend Engineer
+
+Company: Horizon Cloud Technologies
+Location: Remote / Hybrid
+Experience Required: 4+ years of professional software engineering experience
+Education: Bachelor's or Master's in Computer Science, Software Engineering, or related field
+
+About the Role:
+We are seeking a talented Senior Python Backend Engineer to design and scale high-throughput cloud microservices. You will work on mission-critical REST APIs, distributed workflows, and data pipelines powering our enterprise platform.
+
+Key Responsibilities:
+- Design, build, and maintain robust, scalable REST APIs using Python and modern asynchronous frameworks such as FastAPI.
+- Model relational data schemas and optimize query performance using SQL, PostgreSQL, and Redis caching.
+- Containerize services using Docker and orchestrate deployments with Kubernetes on AWS cloud infrastructure.
+- Implement automated testing suites, code reviews, and CI/CD deployment pipelines using Git and GitHub Actions.
+- Collaborate with frontend engineers, product managers, and data engineers in an Agile / Scrum environment.
+
+Required Skills & Qualifications:
+- 4+ years of professional experience developing backend systems in Python.
+- Proven expertise with FastAPI, Flask, or Django for building REST APIs.
+- Strong proficiency with SQL, database design, and ORM tools (e.g., SQLAlchemy, Alembic).
+- Hands-on experience with Docker containerization and cloud infrastructure (AWS or GCP).
+- Familiarity with CI/CD pipelines, Git version control, and microservices architecture.
+- Solid understanding of software testing, clean architecture, and performance optimization.

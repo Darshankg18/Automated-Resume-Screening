@@ -1,0 +1,26 @@
+Edward Stone
+Email: edward.stone@example.com | Phone: +1-555-0177
+Location: Boston, MA
+
+SUMMARY
+DevOps and Cloud Infrastructure Engineer with 6 years of experience building continuous delivery systems, automating cloud infrastructure on AWS, and writing automation scripts in Python.
+
+SKILLS
+- Cloud & Infrastructure: AWS, Docker, Kubernetes, Terraform, Linux
+- Automation: Python, Bash, CI/CD, Git, GitHub Actions
+- Databases: PostgreSQL, Redis
+
+PROFESSIONAL EXPERIENCE
+
+Senior DevOps Engineer | CloudScale Systems | 2020 - Present
+- Maintained production Kubernetes clusters and containerized applications with Docker.
+- Automated cloud infrastructure provisioning using Terraform and AWS CloudFormation.
+- Developed CI/CD deployment pipelines integrating automated testing and security scans.
+- Wrote Python automation scripts for telemetry, alerting, and database maintenance.
+
+Cloud Systems Administrator | DataPoint Tech | 2018 - 2020
+- Administered Linux servers and managed automated backups.
+- Configured PostgreSQL database clusters and Redis caching servers.
+
+EDUCATION
+Bachelor of Science in Computer Engineering | Northeastern University | 2014 - 2018
